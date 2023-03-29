@@ -13,13 +13,5 @@ DATABASES = {
 # Override Installed Apps
 INSTALLED_APPS += [
     'blog.apps.BlogConfig',
-    'django.contrib.sites',
-
-    # allauth
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-
-    # provider
-    'allauth.socialaccount.providers.google',
+    'users.apps.UserConfig'
 ]
