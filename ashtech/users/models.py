@@ -7,7 +7,7 @@ from .manager import UserManager
 
 
 class Users(AbstractBaseUser, PermissionsMixin):
-    emai = models.EmailField(max_length=254, unique=True)
+    email = models.EmailField(max_length=254, unique=True)
     name = models.CharField(max_length=254, null=True, blank=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
