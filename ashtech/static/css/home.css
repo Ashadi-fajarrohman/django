@@ -1,0 +1,11 @@
+.search-field {
+    position: relative;
+    width: 300px;
+    height:40px;
+    pading: 6px;
+    background-color: #F5F5F5
+}
+.profile-img-nav {
+    height:40px;
+    width: 40px;
+}
